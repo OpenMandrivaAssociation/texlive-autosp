@@ -34,15 +34,8 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%doc %{_texmfdistdir}/texmf-dist/doc/generic/autosp
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/tex2aspc.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/tex2aspc.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/autosp.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/autosp.1
+%doc %{_texmfdistdir}/doc/generic/autosp
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
