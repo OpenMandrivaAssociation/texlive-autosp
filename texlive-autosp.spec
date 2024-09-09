@@ -1,6 +1,6 @@
 Name:		texlive-autosp
-Version:	58211
-Release:	2
+Version:	69814
+Release:	1
 Summary:	A Preprocessor that generates note-spacing commands for MusiXTeX scores
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/autosp
