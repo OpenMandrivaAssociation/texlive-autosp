@@ -3,7 +3,7 @@ Version:	69814
 Release:	1
 Summary:	A Preprocessor that generates note-spacing commands for MusiXTeX scores
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/autosp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/autosp
 License:	gpl2+
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/autosp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/autosp.doc.r%{version}.tar.xz
